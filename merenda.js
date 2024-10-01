@@ -4,7 +4,7 @@ function sommaInteri(N) {
     // Verifica se l'input è un numero valido o positivo
     if (typeof N !== 'number' || N < 0) {
         // Restituisco la stringa numero invalido come risposta
-        return 'numero invalido'
+        return 'Invalid input'
     }
 
     // Inizializzo le variabili:
